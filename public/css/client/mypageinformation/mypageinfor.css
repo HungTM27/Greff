@@ -1,0 +1,13 @@
+.infor_link{
+    color: #808080;
+    font: normal normal normal 12px/18px Hiragino Kaku Gothic Pro;
+}
+.my_page_avatar{
+    border-radius:50%;
+}
+@media only screen and (max-width: 992px){
+    .mypageinfor-wap>.row>*{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

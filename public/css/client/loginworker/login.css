@@ -1,0 +1,44 @@
+.modal-body{
+    top: 96px;
+    left: 454px;
+    width: 431px;
+    height: 500px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 7px;
+    opacity: 1;
+}
+.login{
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 2px solid var(--unnamed-color-0eafff);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 2px solid #0EAFFF;
+    opacity: 1;
+}
+.login-form{
+    margin-top: 26px;
+    left: 598px;
+    color: #1E1E1E;
+    font-size: normal normal normal 16px/24px Hiragino Kaku Gothic Pro;;
+}
+.phone{
+    color: var(--unnamed-color-4b4b4b);
+}
+.password{
+    /* text-align: center; */
+    color: var(--unnamed-color-4b4b4b);
+}
+/* .register{
+    background: #F5F9FE 0% 0% no-repeat padding-box;
+} */
+.register_label{
+    margin: 5px 0;
+    text-align: center;
+    color: #1E1E1E;
+}
+.or_register{
+
+}

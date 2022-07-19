@@ -1,0 +1,559 @@
+body, html {
+    margin: 0px;
+    width: 100%;
+    font-family: ヒラギノ角ゴ, Hiragino Kaku Gothic Pro, Nunito, sans-serif;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 100px;
+    height: 47px;
+    text-align: right;
+    font-weight: 900 !important;
+    font-size: 30px;
+    line-height: 51px;
+    color: #004AF8;
+}
+
+.slogan {
+    padding-top: 17px;
+    height: 47px;
+    text-align: left;
+    font: normal normal normal 12px/18px Hiragino Kaku Gothic Pro;
+    color: #808080;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 14px;
+    background: #004AF8 0% 0% no-repeat padding-box;
+}
+
+main {
+    width: 100%;
+}
+
+.breadcrumb-list nav .breadcrumb {
+    padding-left: 210px;
+    font: normal normal normal 12px/18px Hiragino Kaku Gothic Pro;
+}
+
+.breadcrumb-list, .breadcrumb-list nav .breadcrumb {
+    background-color: #fff;
+    height: 33px;
+}
+
+.breadcrumb, .breadcrumb-item {
+    display: flex;
+}
+
+.breadcrumb {
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.end-footer {
+    height: 70px;
+    text-align: center;
+    font: normal normal normal 12px/18px Hiragino Kaku Gothic Pro;
+    color: #808080;
+}
+
+.error {
+    color: red;
+}
+p {
+    margin-bottom: .3rem;
+}
+/* Start Form Register Step 1 */
+
+.container {
+    max-width: 100%;
+}
+
+.register-content {
+    padding-top: 20px;
+    padding-bottom: 312px;
+}
+
+.register-content .register-block {
+    padding-left: 210px;
+}
+
+.register-content .register-block {
+    font: normal normal normal 18px/27px Hiragino Kaku Gothic Pro;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+
+.register-s1-content .register-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.register-s1-content .register-area .mobile-register-wrap {
+    cursor: pointer;
+    width: 360px;
+    height: 50px;
+    background: #fff 0 0 no-repeat padding-box;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 16%);
+    border: 2px solid #5f8fff;
+    color: #5f8fff;
+    line-height: 50px;
+    font-weight: 700;
+    border-radius: 7px;
+    font-size: 16px;
+    margin: 14px auto;
+}
+
+.register-area .register-title {
+    padding-bottom: 15px;
+}
+
+@media (max-width: 376px) {
+    .container {
+        max-width: 375px;
+    }
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .breadcrumb-list {
+        display: none;
+    }
+    .register-content .register-block {
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: left;
+        font: normal normal normal 16px/24px Hiragino Kaku Gothic Pro;
+        letter-spacing: 0px;
+        color: #4B4B4B;
+    }
+    .register-area {
+        margin-left: 0px;
+    }
+    .register-area .register-title {
+        width: 331px;
+        text-align: center;
+        font: normal normal normal 14px/22px Hiragino Kaku Gothic Pro;
+        letter-spacing: 0px;
+        color: #4B4B4B;
+    }
+}
+
+
+/* End Form Register Step 1 */
+
+
+/* Start Form Register Step 2 */
+
+.register-form-wrap {
+    margin-top: 19px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.tr {
+    border: 1px solid #d4d4d4;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-header-wrap {
+    padding-left: 16px;
+    width: 20%;
+    line-height: 92.5px;
+    background-color: #f5f9fe;
+    border-right: 1px solid #d4d4d4;
+}
+
+.row-header {
+    color: #4b4b4b;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.table-regis .tr .row-input-wrap {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+
+.tr .row-header-wrap .row-header span {
+    position: absolute;
+    right: 16px;
+    background-color: #ff5151;
+    height: 17px;
+    width: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    top: 50%;
+    margin-top: -8px;
+    border-radius: 2px;
+}
+
+.table-regis .tr .row-input-wrap .input-wrap .input-box {
+    height: 46px;
+    border: 1px solid #acacac;
+    border-radius: 3px;
+    width: 100%;
+    padding: 14px;
+}
+
+.action-submit {
+    text-align: center;
+    margin-top: 47.5px;
+}
+
+.button-submit{
+    cursor: pointer;
+    width: 360px;
+    height: 50px;
+    background: #0eafff 0 0 no-repeat padding-box;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 16%);
+    border-radius: 7px;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+}
+
+.button-submit span {
+    position: absolute;
+    right: 17px;
+}
+
+.table-regis .multiline-row .row-header-wrap .row-header span {
+    top: 33%;
+}
+
+#app input[type=date],
+#app input[type=datetime-local],
+#app input[type=datetime],
+#app input[type=email],
+#app input[type=month],
+#app input[type=number],
+#app input[type=password],
+#app input[type=search],
+#app input[type=tel],
+#app input[type=text],
+#app input[type=time],
+#app input[type=url],
+#app input[type=week] {
+    font-size: 16px !important;
+}
+
+.register-content .register-block .register-form-wrap .table-regis .tr .row-input-wrap .input-wrap .input-box {
+    height: 46px;
+    border: 1px solid #acacac;
+    border-radius: 3px;
+    width: 100%;
+    padding: 14px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.6em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input, select {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: field;
+    margin: 0em;
+    border-image: initial;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    -webkit-rtl-ordering: logical;
+}
+
+input {
+    cursor: text;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+}
+
+.table-regis .tr .row-input-wrap .input-wrap .phone-box {
+    width: 265px;
+    margin-top: 4px;
+}
+
+select {
+    word-wrap: normal;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,.col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.pdr-4 {
+    padding-right: 4px;
+}
+.pdl-4 {
+    padding-left: 4px;
+}
+.tr .row-input-wrap .input-date-wrap {
+    padding-left: 16px;
+}
+
+.select-wrap {
+    position: relative;
+}
+
+.row-input-wrap .input-date-wrap .select-wrap select {
+    padding: 9px;
+    width: 116px;
+    height: 46px;
+    background: #fff;
+    border: 1px solid #acacac;
+    border-radius: 3px;
+    color: #4b4b4b;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.text-date {
+    margin: 24px 10px 0;
+}
+
+.select-arrow {
+    position: absolute;
+    top: 7px;
+    background: #fff;
+    right: 3px;
+    color: #5f8fff;
+    font-size: 20px;
+}
+
+.table-regis .not-required .row-input-wrap .input-date-wrap .select-wrap .select-arrow {
+    /* position: absolute; */
+    top: 7px;
+    background: #fff;
+    right: 3px;
+    color: #5f8fff;
+    font-size: 20px;
+}
+
+.input-checkbox-wrap {
+    margin-left: 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.checkbox-wrap .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+}
+
+.row-input-wrap .input-checkbox-wrap .checkbox-wrap {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #4b4b4b;
+    margin-top: 17px;
+}
+
+.row-input-wrap .input-checkbox-wrap .checkbox-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.oneline-row .row-header-wrap {
+    line-height: 71px;
+}
+
+.multiline-row .row-header-wrap {
+    line-height: 72px;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.text-caption {
+    margin-top: 7px;
+    color: #9a9a9a;
+    font-size: 12px;
+}
+.text-link {
+    text-align: center;
+    margin-top: 47.5px;
+    font-size: 13px;
+}
+.checkbox-wrap input:checked~.checkmark:after {
+    display: block;
+}
+.row-input-wrap .input-checkbox-wrap .checkbox-wrap .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #2196f3;
+}
+.input-checkbox-wrap .checkbox-wrap .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* End Form Register Step 2 */
+
+/* Start Form Register Confirm Phone */
+
+.register-set-password-content {
+    text-align: center;
+    margin-top: 27px;
+}
+.register-set-password-content .register-area {
+    margin: 59px auto 0;
+    width: 400px;
+}
+.register-set-password-content .register-block {
+    text-align: left;
+}
+.register-set-password-content .register-area .register-title {
+    font-size: 18px;
+}
+.register-set-password-content .register-area form .form-group {
+    text-align: left;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.alert-danger {
+    color: #761b18;
+    background-color: #f9d6d5;
+    border-color: #f7c6c5;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 14px;
+}
+.register-set-password-content .register-area form button {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background: #0eafff 0 0 no-repeat padding-box;
+    box-shadow: 0 2px 2pxrgba(0,0,0,.16);
+    border-radius: 7px;
+    margin: 20px auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 37px;
+}
+.margin-top-30 {
+    margin-top: 30px !important;
+}
+.text-left {
+    text-align: left !important;
+}
+/* End Form Register Confirm Phone */

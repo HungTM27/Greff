@@ -1,0 +1,78 @@
+.container.register-set-password-content.register-content {
+    width: 676px;
+    margin-top: 69px;
+    margin-bottom: 262px;
+    text-align: center;
+    padding: 0;
+}
+.register-block {
+    font: normal normal normal 22px/33px Hiragino Kaku Gothic Pro;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #1E1E1E;
+}
+.register-area {
+    margin-top: 29px;
+    text-align: center;
+    font: normal normal normal 16px/24px Hiragino Kaku Gothic Pro;
+    color: grey;
+}
+.action-submit {
+    text-align: center;
+    margin-top: 47.5px;
+}
+
+.button-submit{
+    cursor: pointer;
+    width: 360px;
+    height: 50px;
+    background: #0eafff 0 0 no-repeat padding-box;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 16%);
+    border-radius: 7px;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+}
+@media (max-width: 376px) {
+    .container.register-set-password-content.register-content {
+        width: 350px;
+        margin-top: 52px;
+        margin-bottom: 262px;
+        text-align: center;
+        padding: 0;
+    }
+    .register-block {
+        font: normal normal normal 18px/27px Hiragino Kaku Gothic Pro;;
+        font-weight: 600;
+        letter-spacing: 0px;
+        color: #4B4B4B;
+    }
+    .register-area {
+        margin-top: 29px;
+        text-align: center;
+        font: normal normal normal 16px/24px Hiragino Kaku Gothic Pro;
+        color: grey;
+    }
+    .action-submit {
+        text-align: center;
+        margin-top: 47.5px;
+    }
+
+    .button-submit{
+        cursor: pointer;
+        width: 360px;
+        height: 50px;
+        background: #0eafff 0 0 no-repeat padding-box;
+        box-shadow: 0 2px 2px rgb(0 0 0 / 16%);
+        border-radius: 7px;
+        margin: 10px auto;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 50px;
+        position: relative;
+    }
+}
